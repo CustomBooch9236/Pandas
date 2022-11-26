@@ -13,3 +13,4 @@ Additional Installed Libraries:
 - Scikit-Learn 1.1.3
 - Imbalanced Learn 0.9.1
 - XG-BOOST 1.7.1
+- Seaborn 0.12.1
