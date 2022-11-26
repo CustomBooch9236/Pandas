@@ -12,3 +12,4 @@ Additional Installed Libraries:
 - Numpy 1.23.4
 - Scikit-Learn 1.1.3
 - Imbalanced Learn 0.9.1
+- XG-BOOST 1.7.1
