@@ -10,3 +10,4 @@ Additional Installed Libraries:
 - Pandas 1.5.1
 - MatPlotLib 3.6.2
 - Numpy 1.23.4
+- Scikit-Learn 1.1.3
