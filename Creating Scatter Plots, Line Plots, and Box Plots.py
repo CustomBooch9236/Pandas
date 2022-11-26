@@ -1,7 +1,7 @@
 import pandas as pd
-# Importing the 'numpy' and 'matplotlib.pyplot' Modules
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 # Import the DF and check its dimensions
 exo_train_df = pd.read_csv('https://student-datasets-bucket.s3.ap-south-1.amazonaws.com/whitehat-ds-datasets/kepler-exoplanets-dataset/exoTrain.csv')
@@ -22,4 +22,10 @@ plt.show()
 # Line Plot
 plt.figure(figsize=(18,6))
 plt.plot(x_values_star0,y_values_star0)
+plt.show()
+
+# Box Plot
+series1 = pd.Series([3, 9, 6, 10, 7, 9, 7, 6, 1])
+plt.figure(figsize=(15,7))
+sns.boxplot(series1)
 plt.show()
