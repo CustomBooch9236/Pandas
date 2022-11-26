@@ -11,3 +11,4 @@ Additional Installed Libraries:
 - MatPlotLib 3.6.2
 - Numpy 1.23.4
 - Scikit-Learn 1.1.3
+- Imbalanced Learn 0.9.1
