@@ -8,3 +8,4 @@ Version of Software:
 
 Additional Installed Libraries:
 - Pandas 1.5.1
+- MatPlotLib 3.6.2
