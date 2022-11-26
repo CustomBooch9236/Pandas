@@ -24,3 +24,10 @@ print(rf_clf.score(x_train,y_train))
 x_test = exo_test_df.iloc[:,1:] #extracting the feature variables
 y_test = exo_test_df.iloc[:,0] #extracting the target variable
 y_predicted = rf_clf.predict(x_test)
+
+# The Confusion Matrix
+from sklearn.metrics import confusion_matrix , classification_report
+cm = confusion_matrix(y_test,y_predicted)
+#1 Printing the 'precision', 'recall' and 'f1-score' Values Using the 'classification_report()' Function
+class_rep = classification_report(y_test,y_predicted)
+print(class_rep)
